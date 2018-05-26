@@ -1,0 +1,38 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "candidature",
+            "otherEntityName": "candidature",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "projet"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "intitule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "montant",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "domaine",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180526185343",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "projet",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}
