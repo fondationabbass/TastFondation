@@ -1,0 +1,33 @@
+entity Candidat {
+    nom String,
+    dna LocalDate,
+    lieuNa String,
+    adresse String
+}
+
+entity Candidature {
+	type String,
+    status String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Projet {
+	intitule String,
+	montant String,
+	domaine String,
+	type String
+}
+
+relationship OneToOne {
+	Projet{candidature} to Candidature
+}
+
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Candidature{candidat} to Candidat
+}
+
+// Set pagination options
+paginate Candidature with pagination
