@@ -1,15 +1,15 @@
 {
     "global": {
-        "title": "TastFondation",
+        "title": "GeFond",
         "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
         "menu": {
             "home": "Accueil",
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entités",
-                "candidat": "Candidat",
-                "candidature": "Candidature",
-                "projet": "Projet",
+                "candidat": "Candidats",
+                "candidature": "Candidatures",
+                "projet": "Projets",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
@@ -131,5 +131,5 @@
         "emailexists": "Email déjà utilisé !",
         "idexists": "Une nouvelle entité {{entityName}} ne peut pas avoir d'ID !"
     },
-    "footer": "Ceci est votre pied de page"
+    "footer": "Tous droits reservés, Fondation Abbass 2018"
 }

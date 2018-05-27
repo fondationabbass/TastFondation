@@ -32,6 +32,7 @@
     "jhipsterVersion": "4.14.4",
     "packageFolder": "com/bdi/fondation",
     "jwtSecretKey": "04945fc33d72255540c76b8e95d34fa6cedf57f6",
-    "jhiPrefix": "jhi"
+    "jhiPrefix": "jhi",
+    "herokuDeployType": "jar"
   }
 }
